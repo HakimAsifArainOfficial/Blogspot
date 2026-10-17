@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hakim Asif Arain Official Blog</title>
     <style>
-        /* پورے صفحے کا آسمانی رنگ اور اوپر سے ترتیب */
+        /* باہر کا تھیم تیز نیلا رنگ */
         body {
-            background-color: #87CEEB; /* Sky Blue */
+            background-color: #0077BE; /* Deep Blue / Sky Blue */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
@@ -17,61 +17,68 @@
             min-height: 100vh;
         }
 
-        /* ہیڈنگ کو بالکل اوپر کرنے کے لیے اسٹائل */
+        /* اوپر والی ویلکم ہیڈنگ */
         .top-heading {
-            color: #000000; /* Black */
-            font-size: 28px;
+            color: #ffffff;
+            font-size: 26px;
             font-weight: bold;
             text-align: center;
             margin-top: 10px;
-            margin-bottom: 30px;
+            margin-bottom: 15px;
         }
 
-        /* لکھائی اور بٹنوں والا خانہ جو کہ ہرا ہوگا */
+        /* لکھائی اور ڈسکرپشن والا خانہ (ہلکا ہرا رنگ) */
         .content-box {
-            background-color: #2E8B57; /* Sea Green */
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            background-color: #90EE90; /* Light Green */
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
             text-align: center;
             max-width: 500px;
             width: 90%;
         }
 
-        /* خانے کے اندر کی لکھائی اور بٹن */
+        /* ڈسکرپشن کی لکھائی (کالا رنگ) */
+        .description-text {
+            color: #000000;
+            font-size: 15px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        /* About کا چھوٹا اور تیز ہرے رنگ کا بٹن (کالی لکھائی کے ساتھ) */
         .blog-button {
             display: inline-block;
-            background-color: #ffffff;
-            color: #000000;
-            font-size: 18px;
+            background-color: #00FF00; /* Bright/Fast Green */
+            color: #000000; /* Black text */
+            font-size: 16px;
             font-weight: bold;
-            padding: 12px 25px;
-            margin: 10px 0;
+            padding: 8px 20px;
             text-decoration: none;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
             transition: all 0.3s ease;
-            width: 80%;
         }
 
         .blog-button:hover {
-            background-color: #f0f0f0;
+            background-color: #00CC00;
             transform: translateY(-2px);
         }
     </style>
 </head>
 <body>
 
-    <!-- یہ انگریزی والی ہیڈنگ اب بالکل اوپر نظر آئے گی -->
+    <!-- اوپر والی ہیڈنگ -->
     <h1 class="top-heading">Welcome to the official blog of Hakim Asif Arain</h1>
 
-    <!-- تمام بٹنوں والا ہرا خانہ -->
+    <!-- لکھائی اور ڈسکرپشن والا حصہ (ہلکا ہرا) -->
     <div class="content-box">
-        <a href="https://hakimasifarainofficial.github.io/smart-hub/" target="_blank" class="blog-button">Smart Hub</a>
-        
-        <a href="https://hakimasifarainofficial.blogspot.com/p/about-us.html" target="_blank" class="blog-button">About Us</a>
+        <p class="description-text">
+            On this page, there are buttons to go to other places such as About Us, Disclaimer, Privacy Policy, Cognitive profile, and more.
+        </p>
 
-        <!-- مستقبل میں مزید بٹن آپ یہاں نیچے شامل کر سکتے ہیں -->
+        <!-- صرف About کا بٹن -->
+        <a href="https://hakimasifarainofficial.blogspot.com/p/about-us.html" target="_blank" class="blog-button">About</a>
     </div>
 
 </body>
