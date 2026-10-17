@@ -1,26 +1,36 @@
 <!DOCTYPE html>
-<html lang="ur" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>حکیم آصف آرائیں آفیشل بلاگ</title>
+    <title>Hakim Asif Arain Official Blog</title>
     <style>
-        /* پورے صفحے کا آسمانی رنگ */
+        /* پورے صفحے کا آسمانی رنگ اور اوپر سے ترتیب */
         body {
             background-color: #87CEEB; /* Sky Blue */
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            padding: 20px;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
         }
 
-        /* لکھائی اور بٹنوں والا حصہ جو کہ ہرا ہوگا */
+        /* ہیڈنگ کو بالکل اوپر کرنے کے لیے اسٹائل */
+        .top-heading {
+            color: #000000; /* Black */
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+        /* لکھائی اور بٹنوں والا خانہ جو کہ ہرا ہوگا */
         .content-box {
             background-color: #2E8B57; /* Sea Green */
-            padding: 40px;
+            padding: 30px;
             border-radius: 15px;
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
             text-align: center;
@@ -28,15 +38,7 @@
             width: 90%;
         }
 
-        /* ہیڈنگ اور لکھائی کا رنگ کالا */
-        h1 {
-            color: #000000; /* Black */
-            font-size: 26px;
-            margin-bottom: 30px;
-            font-weight: bold;
-        }
-
-        /* بلاگ میں رکھے جانے والے بٹنوں کا اسٹائل */
+        /* خانے کے اندر کی لکھائی اور بٹن */
         .blog-button {
             display: inline-block;
             background-color: #ffffff;
@@ -60,16 +62,16 @@
 </head>
 <body>
 
-    <div class="content-box">
-        <!-- مطلوبہ ہیڈنگ -->
-        <h1>حکیم آصف آرائیں آفیشل کے بلاگ میں آنے کا خوش آمدید</h1>
+    <!-- یہ انگریزی والی ہیڈنگ اب بالکل اوپر نظر آئے گی -->
+    <h1 class="top-heading">Welcome to the official blog of Hakim Asif Arain</h1>
 
-        <!-- یہاں آپ اپنے بلاگ کے تمام بٹن رکھ سکتے ہیں -->
+    <!-- تمام بٹنوں والا ہرا خانہ -->
+    <div class="content-box">
         <a href="https://hakimasifarainofficial.github.io/smart-hub/" target="_blank" class="blog-button">Smart Hub</a>
         
         <a href="https://hakimasifarainofficial.blogspot.com/p/about-us.html" target="_blank" class="blog-button">About Us</a>
 
-        <!-- مستقبل میں مزید بٹن آپ اس کے نیچے اسی طرح شامل کر سکتے ہیں -->
+        <!-- مستقبل میں مزید بٹن آپ یہاں نیچے شامل کر سکتے ہیں -->
     </div>
 
 </body>
